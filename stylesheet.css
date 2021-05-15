@@ -1,0 +1,338 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     /* border: 2px solid red; */
+ }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+a{
+    text-decoration: none;
+    color: white;
+}
+span {
+     color: #757779; 
+ }
+  header{
+      line-height: 20px;
+      width: 100%;
+  }
+ 
+.logo{
+      color: white;
+      display: block;
+     
+ } 
+ .li,.fab,.fa-github{
+     color: white;
+     font-size: 50px;
+     
+     display: block;
+ }
+  .navigation-bar {
+        display: flex;
+        list-style-type:none ;  
+        justify-content: center; 
+        background-color: #24292e;
+        align-content: center;
+        line-height: 30px;
+        padding: 10px; 
+        position: relative;
+        overflow: hidden;
+        
+  }
+  .nav-item {
+      font-size: 17px;
+      margin: 10px;
+      padding: 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      text-decoration: none;
+      overflow: hidden;
+  }
+  .nav-item > a:hover{
+    color: wheat;
+
+  }
+
+  .nav-item > a{
+      margin: auto;
+  }
+.nav-search-box{
+    height: 20px;
+    margin: auto;
+    text-align: left;
+    padding-left: 10px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+     background-color: #2b3137;
+}
+
+.c1{
+    font-size: 20px;
+    width: 40%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 50px;
+    margin: 50px;
+    color: white;
+}
+
+.c2{
+    width: 40%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 50px;
+    margin: 50px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    overflow: hidden;
+}
+.input-field{
+    width: 100%;
+}
+.item{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.sign-up{
+     background-color: #0d8a0d;
+     border: none;
+     color: white;
+     padding: 10px 10px;
+     text-decoration: none;
+     margin: 4px 1px;
+     cursor: pointer;
+     width: 99%;
+     text-align: center;
+     border-radius: 5px;
+     box-shadow: steelblue;
+     background-image: linear-gradient(180deg, #34d058 0%, #28a745 90%  );
+}
+.sign-up:hover{
+    background-color: #09ce09;
+}
+.sign-up-hidden{
+    display: none;
+}
+.built-heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+}
+.about-github-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px; 
+    color: #ffffff99;
+    line-height: 1.5;
+}
+.open-source{
+    color: white;    
+}
+.business{
+    color: white;
+}
+.sign-up-form{
+    color: #586069;
+    background-color: white;
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
+}
+.pass{
+    font-size: 12px;
+    text-align: center;
+}
+
+.terms{
+    font-size: 10px;
+    text-align: center;
+
+}
+.tnc{
+    color: cornflowerblue;
+}
+.tnc:hover{
+    cursor: pointer;
+}
+h4{
+    font-family: sans-serif; 
+    font-weight: 300;
+    color: grey;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.gft{
+    
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-weight: 250;
+} 
+.ghtext{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; 
+    text-align: center;
+    color: gray;
+
+
+}
+.button{
+    color: #2252f1fd;
+    font-weight: 800;
+    padding: 8px 8px;
+    margin-top: 10px ;
+    background-color: white;
+    border: 2px solid slategray;
+    border-radius: 5px;
+}
+.button:hover{
+    color: white;
+    background-color: #0366d6;
+    border-radius: 5px;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 30px;
+    margin-right: 10px;
+    margin-top: 33px;
+    position: absolute;
+    right: 1%;
+    display: none;
+    
+}
+#check{
+   display: none;   
+}
+@media only screen and (max-width:940px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .fab,.fa-github{
+        display: block;
+        color: white;
+        font-size: 60px;
+    }
+    .c1{
+        display: flex;
+        width: 100%;
+        align-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+    .c2{
+        display: flex;
+        margin-top: 0;
+        width: 100%;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .sign-up-form{
+        color: #586069;
+        background-color: white;
+        width: 70%;
+        padding: 15px;
+        border-radius: 5px;
+    }
+.input-field{
+    padding: 5px;
+    width: 100%;
+    }
+.pass{
+    font-size: 16px;
+}
+.terms{
+    font-size: 15px;
+}
+.nav-item{
+    display: none;
+}    
+.checkbtn,.fas fa-bars{
+    display:block;
+    justify-content: right;
+    margin-right: 10%;
+    margin-top: 7%;
+    font-size: 60px;
+}
+.nav-item.logo{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+   justify-content: left;
+}
+.navigation-bar{
+    justify-content: left;
+}
+}
+ @media only screen and (max-width: 480px){
+
+.c1{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 0;
+}
+.c2{
+    display: flex;
+    margin-top: 0;
+    width: 100%;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.input-field{
+width: 100%;
+}
+.nav-item{
+display: none;
+}    
+.checkbtn,.fas fa-bars{
+display: flex;
+margin-top: 20px;
+justify-content: right;
+margin-right: 10%;
+margin-top: 53px;
+font-size: 30px;
+text-align: center;
+margin-right: 15%
+}
+.nav-item .logo{
+display: flex;
+justify-content: left;
+}
+.navigation-bar{
+justify-content: left;
+}
+.sign-up-form-hidden{
+    display: none;
+}
+.sign-up-hidden{
+   display: block;
+    background-color: #0d8a0d;
+    border: none;
+    color: white;
+    padding: 20px 80px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 99%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: steelblue;
+    background-image: linear-gradient(180deg, #34d058 0%, #28a745 90%  );
+
+}
+}
